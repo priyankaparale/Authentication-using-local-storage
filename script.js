@@ -102,8 +102,8 @@ const goToProfile = () => {
 for (var i = 0; i < localStorage.length; i++){
     // do something with localStorage.getItem(localStorage.key(i));
 	console.log(localStorage.getItem(localStorage.key(i)));
-	document.getElementById('Email').innerHTML = (localStorage.getItem(localStorage.key(i)));
-	document.getElementById('full_Name').innerHTML = (localStorage.getItem(localStorage.key(1)));
-	document.getElementById('Password').innerHTML = (localStorage.getItem(localStorage.key(0)));
+	document.getElementById('Email').innerHTML = (localStorage.getItem(localStorage.key(1)));
+	document.getElementById('full_Name').innerHTML = (localStorage.getItem(localStorage.key(0)));
+	document.getElementById('Password').innerHTML = (localStorage.getItem(localStorage.key(2)));
 
 }
