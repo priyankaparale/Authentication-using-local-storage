@@ -7,11 +7,11 @@ function signUp(isSubmitted = false) {
 	let confirmPassword = document.getElementById('confirm-password').value
 	let error = false
 
-    let userDetails = {
-        fullName:fullName,
-        email:email,
-        password: password,
-    };
+    // let userDetails = {
+    //     fullName:fullName,
+    //     email:email,
+    //     password: password,
+    // };
 
     // var json = JSON.stringify(userDetails);
     // localStorage.setItem(fullName, json)
