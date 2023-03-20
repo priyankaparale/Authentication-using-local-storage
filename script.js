@@ -1,3 +1,5 @@
+console.log("hey!")
+
 let globalIsSubmitted = false 
 
 function signUp(isSubmitted = false) {
